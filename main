@@ -1,0 +1,7 @@
+#! /bin/bash
+# Wrapper around Python code so user doesn't have to write 'python3 filename.py [args]' every time
+
+# TODO change name of file and .py reference to match program name
+python3 main.py "$@"
+
+./src/scripts/endings.sh
